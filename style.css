@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root{
+	/* this is CSS variable */
+	--penguin-skin: black;
+	--penguin-belly: white;
+	--penguin-beak: orange;
+	/* this is CSS variable	 */
+}
+/*body{
+	background-color: var(--penguin-skin, gray);
+}*/
