@@ -6,7 +6,7 @@
 		<meta name="description" content="NewsTrackr. Breaking News, News Coverage, Current Events. Articles on Business news  ">
 		<meta name="keywords" content="HTML,CSS">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:700" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="./style.css">
 		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
 	</head>
@@ -14,7 +14,7 @@
 		<div class="container">
 			<div class="hm_wrapper">
 
-				<main>
+				<main style="display: none;">
 					<div class="banner">
 						<header>
 							<div class="hdwrpr">
@@ -39,8 +39,8 @@
 										</p>
 									</div>
 									<div class="hlf_sec">
-										<div class="bg_cntn_btn">
-											<a href="#">CONTINUE<img src="./assets/img/icon/arrow-icon.png" alt="contine arrow icon"></a>
+										<div class="bg_cntn_btn_wrapper">
+											<a href="#" class="bg_cntn_btn">CONTINUE<img src="./assets/img/icon/arrow-icon.png" alt="contine arrow icon"></a>
 										</div>
 									</div>
 								</div>
@@ -53,23 +53,23 @@
 								<ul>
 									<li>
 										<img src="./assets/img/icon/business-news.png" alt="NewsTrackr business news logo">
-										<strong>Business News</strong>
+										<strong>Business News  <span class="org_txt">&gt;&gt;</span></strong>
 									</li>
 									<li>
 										<img src="./assets/img/icon/politics-news.png" alt="NewsTrackr politics news logo">
-										<strong>Politics News</strong>
+										<strong>Politics News  <span class="org_txt">&gt;&gt;</span></strong>
 									</li>
 									<li>
 										<img src="./assets/img/icon/entertaintment-news.png" alt="NewsTrackr entertaintment news logo">
-										<strong>Entertaintment News</strong>
+										<strong>Entertaintment News  <span class="org_txt">&gt;&gt;</span></strong>
 									</li>
 									<li>
 										<img src="./assets/img/icon/sports-news.png" alt="NewsTrackr sports news logo">
-										<strong>Sports News</strong>
+										<strong>Sports News  <span class="org_txt">&gt;&gt;</span></strong>
 									</li>
 									<li>
 										<img src="./assets/img/icon/health-news.png" alt="NewsTrackr health news logo">
-										<strong>Health News</strong>
+										<strong>Health News  <span class="org_txt">&gt;&gt;</span></strong>
 									</li>
 								</ul>
 							</div>
@@ -81,61 +81,64 @@
 				<!-- tumbnail and sharing option preview starts here -->
 				<div class="article_section_wrapper">
 					<div class="article_section">
-
-						<div class="atdvd">
-							<div class="srop_wrapper">
-								<div class="shrbtn">
-									<a href="#"><img src="./assets/img/icon/share-bookmark.png" alt="share button"></a>
-								</div>
-								<div class="shrctn">
-									<h2 class="bold_text">Share or Bookmark News Articles</h2>
-									<p>With infinite news reports released daily, you’re bound to miss important information. For when you don’t have the time to read full articles, NewsTrackr allows you to bookmark articles you would want to read at leisure.. You can also share articles online.</p>
-									<div class="sm_cntn_btn">
-										<a href="#">CONTINUE<img src="./assets/img/icon/arrow-icon.png" alt="contine arrow icon"></a>
+						<div class="article_sp">
+						
+							<div class="atdvd">
+								<div class="srop_wrapper">
+									<div class="shrbtn">
+										<a href="#"><img src="./assets/img/icon/share-bookmark.png" alt="share button"></a>
+									</div>
+									<div class="shrctn">
+										<h2 class="bold_text">Share or Bookmark News Articles</h2>
+										<p class="sprt_text">With infinite news reports released daily, you’re bound to miss important information. For when you don’t have the time to read full articles, NewsTrackr allows you to bookmark articles you would want to read at leisure.. You can also share articles online.</p>
+										<div class="sm_cntn_btn_wrpr">
+											<a href="#" class="sm_cntn_btn">CONTINUE<img src="./assets/img/icon/arrow-icon.png" alt="contine arrow icon"></a>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
 
-						<div class="atdvd">
-							<div class="thmbwrp">
-								<div class="thmb">
-									<div class="atvd_thmb_img">
-										<img src="./assets/img/home/australia-migration.png" alt="Australia on global migration pact">
-									</div>
-									<div class="thmb_ctn">
-										<div class="newstyp">World</div>
-										<div class="thmb_news">
-											<div class="thmb_news_headline">
-												<h3>Australia says it won't sign UN global migration pact</h3>
-												<p class="news_brief">
-													BERLIN (AP) - The Australian said Wednesday that it won't global migration pact
-												</p>
-												<div class="thmb_news_details">
-													<div class="newsdt">
-														<p>Tamps Bay Times | 22 minutes ago</p>
-													</div>
-													<div class="thmb_shr">
-														<div class="org_shr">
-															<img src="./assets/img/icon/share.png" alt="share option">
+							<div class="atdvd">
+								<div class="thmbwrp">
+									<div class="thmb">
+										<div class="atvd_thmb_img">
+											<img src="./assets/img/home/australia-migration.png" alt="Australia on global migration pact">
+										</div>
+										<div class="thmb_ctn">
+											<div class="newstyp">World</div>
+											<div class="thmb_news">
+												<div class="thmb_news_headline">
+													<h3>Australia says it won't sign UN global migration pact</h3>
+													<p class="news_brief">
+														BERLIN (AP) - The Australian said Wednesday that it won't sign the global migration pact
+													</p>
+													<div class="thmb_news_details">
+														<div class="newsdt">
+															<p>Tamps Bay Times | 22 minutes ago</p>
 														</div>
-														<div class="org_shr">
-															<img src="./assets/img/icon/bookmark.png" alt="bookmark option">
+														<div class="thmb_shr">
+															<div class="org_shr">
+																<img src="./assets/img/icon/share.png" alt="share option">
+															</div>
+															<div class="org_shr">
+																<img src="./assets/img/icon/bookmark.png" alt="bookmark option">
+															</div>
 														</div>
 													</div>
 												</div>
 											</div>
 										</div>
-									</div>
 
+									</div>
 								</div>
 							</div>
+
 						</div>
 					</div>
 				</div>
 
 				<!-- perks section starts here -->
-				<div class="perks_wrapper">
+				<div class="perks_wrapper" style="clear: both;">
 					<div class="perks">
 						<div class="hlf_sec">
 							<div class="prks_img_wrapper">
@@ -145,11 +148,11 @@
 								<div class="bold_text">
 									Watch News Coverage
 								</div>
-								<div class="prks_desc">
+								<div class="sprt_text">
 									Want to catch up on world events? Stay updated stories from across the globe. By adding <strong>NewsTrackr</strong> to your New Tab, you can stream live news stories and watch news videos conveniently
 								</div>
-								<div class="sm_cntn_btn">
-									<a href="#">CONTINUE<img src="./assets/img/icon/arrow-icon.png" alt="contine arrow icon"></a>
+								<div class="sm_cntn_btn_wrpr">
+									<a href="#" class="sm_cntn_btn">CONTINUE<img src="./assets/img/icon/arrow-icon.png" alt="contine arrow icon"></a>
 								</div>
 							</div>
 						</div>
@@ -162,11 +165,11 @@
 								<div class="bold_text">
 									Personalized News Recommendations
 								</div>
-								<div class="prks_desc">
+								<div class="sprt_text">
 									Want to catch up on world events? Stay updated stories from across the globe. By adding <strong>NewsTrackr</strong> to your New Tab, you can stream live news stories and watch news videos conveniently
 								</div>
-								<div class="sm_cntn_btn">
-									<a href="#">CONTINUE<img src="./assets/img/icon/arrow-icon.png" alt="contine arrow icon"></a>
+								<div class="sm_cntn_btn_wrpr">
+									<a href="#" class="sm_cntn_btn">CONTINUE<img src="./assets/img/icon/arrow-icon.png" alt="contine arrow icon"></a>
 								</div>
 							</div>
 						</div>
@@ -184,8 +187,8 @@
 							<p>
 								Free installation. No settings or customizations required.
 							</p>
-							<div class="bg_cntn_btn">
-								<a href="#">CONTINUE<img src="./assets/img/icon/arrow-icon.png" alt="contine arrow icon"></a>
+							<div class="bg_cntn_btn_wrapper">
+								<a href="#" class="bg_cntn_btn">CONTINUE<img src="./assets/img/icon/arrow-icon.png" alt="contine arrow icon"></a>
 							</div>
 						</div>
 					</div>
