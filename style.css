@@ -14,11 +14,21 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 }
 :root{
 	/* this is CSS variable */
-	--penguin-skin: black;
+	/*--penguin-skin: black;
 	--penguin-belly: white;
-	--penguin-beak: orange;
+	--penguin-beak: orange;*/
+	--newstrackr-orange: #ea7141;
+	--newstrackr-white: #fff;
+	--newstrackr-gray: #999;
 	/* this is CSS variable	 */
 }
 /*body{
 	background-color: var(--penguin-skin, gray);
 }*/
+.container{
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+}
+.banner{
+	background-image: url("./../assets/img/home/banner-img.jpg");
+}
