@@ -30,13 +30,72 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 	width: 100%;
 	font-family: 'Lato', sans-serif;
 }
+/*=================== main section starts here======================*/
 .banner{
-	background-image: url("./../assets/img/home/banner-img.jpg");
+    height: 600px;
+	background: #2a2d35;
+	background-image: url("./assets/img/home/banner-img.png");
+}
+.hdwrpr {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+.logo_wrapper {
+    width: 50%;
+    display: inline-block;
+}
+.gstore_icon {
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
 }
 
+/*=====================================*/
+
+
+.bg_cntn_btn_wrapper {
+    padding-top: 35px;
+}
+.bg_cntn_btn{
+	font-size: 20px;
+	font-weight: bold;
+    padding: 13px 27px;
+    border-radius: 50px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: var(--newstrackr-white, white);
+    background: var(--newstrackr-orange, orange);
+}
+.bg_cntn_btn > img {
+	padding-left: 10px;
+    width: 27px;
+}
+
+.sm_cntn_btn_wrpr {
+	padding-top: 43px;
+}
+.sm_cntn_btn {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 13px 27px;
+	border-radius: 50px;
+	text-decoration: none;
+	vertical-align: middle;
+	text-transform: uppercase;
+	border: 1px solid #e5e5e5;
+	color: var(--newstrackr-orange, orange);
+	background: var(--newstrackr-white, white);
+}
+.sm_cntn_btn > img {
+	padding-left: 10px;
+}
 /*==================thumbnail article starts here===================*/
 .article_section_wrapper{
 	background-color: #f6f6f6;
+	min-height: 600px;
 }
 .article_section{
 	width: 90%;
@@ -47,11 +106,13 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 	height: 390px;
 	padding: 76px 70px;
 }
+.atdvd {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
 .srop_wrapper{
-	width: 60%;
-	float: left;
 	text-align: center;
-	display: inline-block;
 }
 .shrbtn {
 	padding-bottom: 33px;
@@ -66,25 +127,12 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 	font-size: 16px;
 	color: var(--newstrackr-gray, gray);
 }
-.sm_cntn_btn_wrpr {
-	padding-top: 43px;
-}
-.sm_cntn_btn {
-	font-size: 20px;
-	padding: 13px 27px;
-	border-radius: 50px;
-	text-decoration: none;
-	vertical-align: middle;
-	text-transform: uppercase;
-	border: 1px solid #e5e5e5;
-	color: var(--newstrackr-orange, orange);
-	background: var(--newstrackr-white, white);
-}
-.thmbwrp {
+
+/*.thmbwrp {
 	width: 40%;
 	float: left;
 	display: inline-block;
-}
+}*/
 .thmb {
 	padding: 36px;
 	background: #fff;
@@ -171,20 +219,6 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 .guide_txt{
 	font-size: 18px;
 	color: var(--newstrackr-gray, gray);
-}
-.bg_cntn_btn_wrapper {
-    padding-top: 35px;
-}
-.bg_cntn_btn{
-	font-size: 20px;
-    padding: 13px 27px;
-    border-radius: 50px;
-    text-decoration: none;
-    vertical-align: middle;
-    text-transform: uppercase;
-    border: 1px solid #e5e5e5;
-    color: var(--newstrackr-white, white);
-    background: var(--newstrackr-orange, orange);
 }
 
 /*================footer starts here================*/
