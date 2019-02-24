@@ -34,7 +34,7 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 	width: 50px;
 }
 .banner{
-	height: 600px;
+	height: 800px;
 	position: relative;
 	background: #2a2d35;
 	background-size: cover;
@@ -44,7 +44,7 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 .hdwrpr {
 	width: 90%;
 	margin: 0 auto;
-	padding-top: 60px;
+	padding-top: 50px;
 }
 .logo_wrapper {
 	width: 50%;
@@ -57,7 +57,7 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 	vertical-align: middle;
 }
 .banner_msg_cntn {
-	top: 35%;
+	top: 235px;
 	width: 100%;
 	position: absolute;
 	text-align: center;
@@ -69,7 +69,7 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 .main_title h1{
 	font-size: 40px;
 	font-weight: 100;
-	padding-bottom: 45px;
+	padding-bottom: 65px;
 	color: var(--newstrackr-white, white);
 	font-family: 'Montserrat', sans-serif;
 }
@@ -82,7 +82,7 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 	vertical-align: middle;
 }
 .bg_bnr_btn{
-	font-size: 28px;
+	font-size: 30px;
 	font-weight: bold;
 	padding: 15px 35px;
 	border-radius: 50px;
@@ -98,15 +98,15 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 	background: var(--newstrackr-white, white);
 }
 .bg_bnr_btn > img{
-	padding-left: 10px;
 	width: 32px;
+	padding-left: 10px;
 }
 .news_category_wrapper {
 	width: 100%;
+	bottom: 80px;
 	display: block;
-	position: absolute;
 	text-align: center;
-	bottom: 45px;
+	position: absolute;
 }
 .news_category > ul{
 	list-style-type: none;
@@ -116,11 +116,11 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 	display: inline-block;
 }
 .ntype{
-	display: inline-block;
 	text-align: left;
+	display: inline-block;
 }
 .ntype > img{
-	padding-bottom: 20px;
+	padding-bottom: 25px;
 }
 .ntype > a {
 	text-decoration: none;
@@ -135,7 +135,7 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 
 
 .bg_cntn_btn_wrapper {
-	padding-top: 35px;
+	padding-top: 40px;
 }
 .bg_cntn_btn{
 	font-size: 20px;
@@ -160,7 +160,7 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 }
 
 .sm_cntn_btn_wrpr {
-	padding-top: 43px;
+	padding-top: 50px;
 }
 .sm_cntn_btn {
 	font-size: 20px;
@@ -187,8 +187,8 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 }
 /*==================thumbnail article starts here===================*/
 .article_section_wrapper{
+	min-height: 575px;
 	background-color: #f6f6f6;
-	min-height: 555px;
 }
 .article_section{
 	width: 90%;
@@ -197,7 +197,7 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 .article_sp {
 	width: 100%;
 	height: 390px;
-	padding: 76px 70px;
+	padding: 75px 70px;
 }
 .atdvdshr {
 	width: 60%;
@@ -219,7 +219,7 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 .bold_text {
 	font-size: 24px;
 	font-weight: bold;
-	padding-bottom: 26px;
+	padding-bottom: 25px;
 	font-family: Montserrat, sans-serif;
 }
 .sprt_text{
@@ -290,7 +290,7 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 }
 .prf_fl{
 	width: 100%;
-	padding-top: 75px;
+	padding-top: 65px;
 }
 .hlf_sec {
 	width: 50%;
@@ -328,6 +328,7 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 }
 .guide_txt{
 	font-size: 18px;
+	line-height: 1.44;
 	color: var(--newstrackr-gray, gray);
 }
 
@@ -340,7 +341,7 @@ footer{
 	border-top: 1px solid #e5e5e5;
 }
 .ftr {
-	padding: 30px 0;
+	padding: 32px 0 20px;
 }
 .ftr > ul {
 	list-style-type: none;
@@ -355,7 +356,7 @@ footer{
 }
 .ftr_text{
 	font-size: 12px;
-	padding-bottom: 30px;
+	padding-bottom: 33px;
 	color: rgba(51, 54, 62, 0.8);
 }
 
@@ -379,12 +380,16 @@ footer{
 	}
 	.main_title h1 {
 		font-size: 30px;
+		padding-bottom: 45px;
 	}
 	.banner_hlf_sec {
 		width: 100%;
 	}
 	.bg_bn_btn_wrapper{
 		padding-top: 35px;
+	}
+	.news_category_wrapper{
+		bottom: 45px;
 	}
 	.news_category > ul > li {
 		width: auto;
@@ -431,6 +436,10 @@ footer{
 	.prf_fl{
 		padding-top: 55px;
 	}
+	.prk_ttl_wdth {
+	    width: auto;
+	    padding-top: 15px;
+	}
 	.perks_cntnr {
 		padding: 5px;
 	}
@@ -439,7 +448,7 @@ footer{
 		float: none;
 	}
 	.sm_cntn_btn_wrpr{
-		margin-bottom: 30px;
+		margin-bottom: 50px;
 	}
 	.mobile_chrome{
 		display: block;
