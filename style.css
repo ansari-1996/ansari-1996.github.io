@@ -71,6 +71,7 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 	font-weight: 100;
 	padding-bottom: 45px;
 	color: var(--newstrackr-white, white);
+	font-family: 'Montserrat', sans-serif;
 }
 .banner_sub_title {
 	width: 100%;
@@ -319,7 +320,6 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 .guide_txt{
 	font-size: 18px;
 	color: var(--newstrackr-gray, gray);
-	font-family: 'Montserrat', sans-serif;
 }
 
 /*================footer starts here================*/
@@ -348,4 +348,74 @@ footer{
 	font-size: 12px;
 	padding-bottom: 30px;
 	color: rgba(51, 54, 62, 0.8);
+}
+
+/*====================mobile friendly=================*/
+@media only screen and (max-width: 600px) {
+	.banner{
+		height: 650px;
+	}
+	.logo_wrapper {
+	    width: 100%;
+	    text-align: center;
+	}
+	.gstore_icon{
+		display: none;
+	}
+	.banner_msg_cntn{
+	    top: 25%;
+	}
+	.banner_msg_wrap{
+		width: 85%;
+	}
+	.main_title h1 {
+    	font-size: 30px;
+    }
+    .banner_hlf_sec {
+    	width: 100%;
+    }
+    .bg_bn_btn_wrapper{
+    	padding-top: 35px;
+    }
+    .news_category > ul > li {
+    	width: auto;
+    }
+    .ntype{
+    	padding-right: 15px;
+    }
+    .ntype > img {
+	    display: none;
+	}
+	.mobile_wrapper {
+	    width: 98%;
+	    margin: 0 auto;
+	}
+	.article_section {
+	     width: 100%; 
+	    margin: auto;
+	}
+	.article_sp{
+	    padding: 40px 0 0 0;
+	}
+	.atdvdshr{
+		width: 100%;
+		display: block;
+		vertical-align: unset;
+	}
+	.atdvdthmb{
+		width: 100%;
+		display: block;
+		vertical-align: unset;
+		padding-top: 60px;
+	}
+	.thmbwrp {
+	    width: 98%;
+	    float: none;
+	    margin: 0 auto;
+	}
+	.thmb{
+		box-shadow: 5px 5px 0px 0px rgba(229,229,229,1);
+	}
+
+
 }
