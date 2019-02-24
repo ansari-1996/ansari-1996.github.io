@@ -150,6 +150,7 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 }
 .bg_cntn_btn:hover{
 	transition: 0.8s;
+	border: 1px solid #e5e5e5;
 	color: var(--newstrackr-orange, orange);
 	background: var(--newstrackr-white, white);
 }
