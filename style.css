@@ -95,7 +95,7 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 /*==================thumbnail article starts here===================*/
 .article_section_wrapper{
 	background-color: #f6f6f6;
-	min-height: 600px;
+	min-height: 555px;
 }
 .article_section{
 	width: 90%;
@@ -106,12 +106,18 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 	height: 390px;
 	padding: 76px 70px;
 }
-.atdvd {
+.atdvdshr {
+    width: 60%;
     display: inline-block;
-    width: 49%;
+    vertical-align: middle;
+}
+.atdvdthmb {
+    width: 39%;
+    display: inline-block;
     vertical-align: middle;
 }
 .srop_wrapper{
+	padding: 0 20px;
 	text-align: center;
 }
 .shrbtn {
@@ -127,12 +133,10 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 	font-size: 16px;
 	color: var(--newstrackr-gray, gray);
 }
-
-/*.thmbwrp {
-	width: 40%;
-	float: left;
-	display: inline-block;
-}*/
+.thmbwrp {
+	width: 98%;
+    float: right;
+}
 .thmb {
 	padding: 36px;
 	background: #fff;
@@ -186,6 +190,7 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 }
 .prf_fl{
 	width: 100%;
+	padding-top: 75px;
 }
 .hlf_sec {
     width: 50%;
