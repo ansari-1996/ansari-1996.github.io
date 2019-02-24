@@ -224,6 +224,7 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 }
 .sprt_text{
 	font-size: 16px;
+	line-height: 1.5;
 	color: var(--newstrackr-gray, gray);
 }
 .sprt_text > strong {
