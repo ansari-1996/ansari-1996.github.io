@@ -33,7 +33,10 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 /*=================== main section starts here======================*/
 .banner{
     height: 600px;
+	position: relative;
 	background: #2a2d35;
+	background-size: cover;
+	background-position: center;
 	background-image: url("./assets/img/home/banner-img.png");
 }
 .hdwrpr {
@@ -51,7 +54,16 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
     text-align: right;
     vertical-align: middle;
 }
-
+.banner_msg_cntn {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+}
+.main_title h1{
+	font-size: 40px;
+	color: var(--newstrackr-white, white);
+}
 /*=====================================*/
 
 
@@ -68,6 +80,11 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
     text-transform: uppercase;
     color: var(--newstrackr-white, white);
     background: var(--newstrackr-orange, orange);
+}
+.bg_cntn_btn:hover{
+	transition: 0.8s;
+	color: var(--newstrackr-orange, orange);
+	background: var(--newstrackr-white, white);
 }
 .bg_cntn_btn > img {
 	padding-left: 10px;
@@ -88,6 +105,14 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 	border: 1px solid #e5e5e5;
 	color: var(--newstrackr-orange, orange);
 	background: var(--newstrackr-white, white);
+	box-shadow: 7px 5px 0px 0px rgba(229,229,229,1);
+}
+.sm_cntn_btn:hover{
+	border: none;
+	box-shadow: none;
+	transition: 0.8s;
+	color: var(--newstrackr-white, white);
+	background: var(--newstrackr-orange, orange);
 }
 .sm_cntn_btn > img {
 	padding-left: 10px;
@@ -224,6 +249,7 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 .guide_txt{
 	font-size: 18px;
 	color: var(--newstrackr-gray, gray);
+	font-family: 'Montserrat', sans-serif;
 }
 
 /*================footer starts here================*/
