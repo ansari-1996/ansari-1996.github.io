@@ -13,19 +13,11 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 	box-sizing: border-box;
 }
 :root{
-	/* this is CSS variable */
-	/*--penguin-skin: black;
-	--penguin-belly: white;
-	--penguin-beak: orange;*/
 	--newstrackr-orange: #ea7141;
 	--newstrackr-white: #fff;
 	--newstrackr-gray: #999;
 	--newstrackr-black: #000;
-	/* this is CSS variable	 */
 }
-/*body{
-	background-color: var(--penguin-skin, gray);
-}*/
 .container{
 	width: 100%;
 	font-family: 'Lato', sans-serif;
@@ -50,21 +42,78 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 }
 .gstore_icon {
     width: 49%;
-    display: inline-block;
     text-align: right;
+    display: inline-block;
     vertical-align: middle;
 }
 .banner_msg_cntn {
+    top: 35%;
+    width: 100%;
     position: absolute;
     text-align: center;
-    width: 100%;
-    top: 50%;
+}
+.banner_msg_wrap {
+    width: 60%;
+    margin: 0 auto;
 }
 .main_title h1{
 	font-size: 40px;
+	font-weight: 100;
+	padding-bottom: 60px;
 	color: var(--newstrackr-white, white);
 }
-/*=====================================*/
+.banner_sub_title {
+    width: 100%;
+}
+.banner_hlf_sec {
+    width: 49%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.bg_bnr_btn{
+    font-size: 28px;
+    font-weight: bold;
+    padding: 15px 35px;
+    border-radius: 50px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: var(--newstrackr-white, white);
+    background: var(--newstrackr-orange, orange);
+}
+.bg_bnr_btn:hover{
+	transition: 0.8s;
+	color: var(--newstrackr-orange, orange);
+	background: var(--newstrackr-white, white);
+}
+.bg_bnr_btn > img{
+	padding-left: 10px;
+    width: 32px;
+}
+.news_category_wrapper {
+    width: 100%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    bottom: 26px;
+}
+.news_category > ul{
+	list-style-type: none;
+}
+.news_category > ul > li{
+	width: 270px;
+	display: inline-block;
+}
+.news_category > ul > li > img{
+	padding-bottom: 20px;
+}
+.nw_ctgr_title{
+    color: var(--newstrackr-white, white);
+}
+.org_txt{
+	color: var(--newstrackr-orange, orange);
+}
+/*================button classes=====================*/
 
 
 .bg_cntn_btn_wrapper {
@@ -158,13 +207,18 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 	font-size: 16px;
 	color: var(--newstrackr-gray, gray);
 }
+.sprt_text > strong {
+	font-size: 15px;
+}
 .thmbwrp {
 	width: 98%;
     float: right;
 }
 .thmb {
 	padding: 36px;
-	background: #fff;
+	border: 1px solid #e5e5e5;
+	background: var(--newstrackr-white, white);
+	box-shadow: 20px 20px 0px 0px rgba(229,229,229,1);
 }
 .atvd_thmb_img > img{
 	width: 100%;
