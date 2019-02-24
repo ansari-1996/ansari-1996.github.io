@@ -115,12 +115,15 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 	width: 250px;
 	display: inline-block;
 }
-.ntype > img{
-	padding-bottom: 20px;
-}
 .ntype{
 	display: inline-block;
 	text-align: left;
+}
+.ntype > img{
+	padding-bottom: 20px;
+}
+.ntype > a {
+	text-decoration: none;
 }
 .nw_ctgr_title{
 	color: var(--newstrackr-white, white);
@@ -432,7 +435,7 @@ footer{
 	.sm_cntn_btn_wrpr{
 		margin-bottom: 30px;
 	}
-
-
-
+	.adtab_sec{
+		padding: 80px 0 97px 0;
+	}
 }
