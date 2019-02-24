@@ -201,7 +201,7 @@
 								<img src="./assets/img/icon/newspaper.png" alt="Add NewsTrackr To Your New Tab">
 							</div>
 							<div class="adtab_sec_cntn">
-								<h2 class="bold_text">Add NewsTrackr To Your New Tab Now!</h2>
+								<h2 class="bold_text mb_pding">Add NewsTrackr To Your New Tab Now!</h2>
 								<p class="guide_txt">
 									Free installation.<br>
 									No settings or customizations required.
@@ -237,8 +237,10 @@
 
 		<script>
 
-		window.onscroll = function() {scrollFunction()};
-
+		// scroll to top function
+		window.onscroll = function() {
+			scrollFunction()
+		};
 		function scrollFunction() {
 			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 				document.getElementById("scrl_top").style.display = "block";
@@ -247,11 +249,14 @@
 				document.getElementById("scrl_top").style.display = "none";
 				}
 			}
-
 		function topFunction() {
-		document.body.scrollTop = 0;
-		document.documentElement.scrollTop = 0;
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
 		}
+
+		// popup function
+
+
 		</script>
 	</body>
 </html>
