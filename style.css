@@ -34,7 +34,7 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 	background-image: url("./../assets/img/home/banner-img.jpg");
 }
 
-/*=====================*/
+/*==================thumbnail article starts here===================*/
 .article_section_wrapper{
 	background-color: #f6f6f6;
 }
@@ -115,6 +115,9 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
 	width: fit-content;
     float: left;
 }
+.newsdt > p{
+    color: var(--newstrackr-gray, gray);
+}
 .thmb_shr {
     width: fit-content;
     float: right;
@@ -125,11 +128,89 @@ html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre
     padding: 5px 7px 2px 5px;
     border: 1px solid #ea7141;
 }
-/*================perks section starts here======================*/
+/*================perks section starts here==================*/
 .perks_wrapper {
     clear: both;
 }
 .perks {
     width: 70%;
     margin: 0 auto;
+}
+.prf_fl{
+	width: 100%;
+}
+.hlf_sec {
+    width: 50%;
+    float: left;
+    display: inline-block;
+}
+.prks_img_wrapper > img{
+	width: 100%;
+	width: -moz-available;
+	width: fill-available;
+	width: -webkit-fill-available;
+}
+.perks_cntnr{
+	padding: 10px;
+}
+.prk_ttl_wdth {
+    width: 240px;
+}
+
+/*================add to tab section starts here================*/
+.adtab_sec_wrapper{
+	clear: both;
+}
+.adtab_sec{
+	text-align: center;
+	padding: 112px 0 97px 0;
+}
+.adtab_img_wrapper{
+	padding-bottom: 35px;
+}
+.guide_txt{
+	font-size: 18px;
+	color: var(--newstrackr-gray, gray);
+}
+.bg_cntn_btn_wrapper {
+    padding-top: 35px;
+}
+.bg_cntn_btn{
+	font-size: 20px;
+    padding: 13px 27px;
+    border-radius: 50px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-transform: uppercase;
+    border: 1px solid #e5e5e5;
+    color: var(--newstrackr-white, white);
+    background: var(--newstrackr-orange, orange);
+}
+
+/*================footer starts here================*/
+footer{
+	width: 100%;
+}
+.footer_wrapper{
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+}
+.ftr {
+    padding: 30px 0;
+}
+.ftr > ul {
+	list-style-type: none;
+}
+.ftr > ul > li{
+	display: inline-block;
+}
+.ftr > ul > li > a{
+	font-size: 12px;
+	text-decoration: none;
+	color: var(--newstrackr-black, black);
+}
+.ftr_text{
+	font-size: 12px;
+	padding-bottom: 30px;
+	color: rgba(51, 54, 62, 0.8);
 }
