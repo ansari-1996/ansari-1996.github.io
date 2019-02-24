@@ -4,7 +4,7 @@
 		<title>NewsTrackr</title>
 		<meta charset="utf-8">
 		<meta name="description" content="NewsTrackr. Breaking News, News Coverage, Current Events. Articles on Business news  ">
-		<meta name="keywords" content="HTML,CSS">
+		<meta name="keywords" content="HTML,CSS, JavaScript">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:700" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="./style.css">
@@ -13,7 +13,7 @@
 	<body>
 		<div class="container">
 			<div class="hm_wrapper">
-
+				<a href="#" onclick="topFunction()" id="scrl_top"><img src="./assets/img/icon/scroll-up.png" alt="scroll to top button"></a>
 				<main>
 					<div class="banner">
 						<header>
@@ -52,24 +52,34 @@
 							<div class="news_category">
 								<ul>
 									<li>
-										<img src="./assets/img/icon/business-news.png" alt="NewsTrackr business news logo"><br>
-										<strong class="nw_ctgr_title">Business News  <span class="org_txt">&gt;&gt;</span></strong>
+										<div class="ntype">
+											<img src="./assets/img/icon/business-news.png" alt="NewsTrackr business news logo"><br>
+											<strong class="nw_ctgr_title">Business News  <span class="org_txt">&gt;&gt;</span></strong>
+										</div>
 									</li>
 									<li>
-										<img src="./assets/img/icon/politics-news.png" alt="NewsTrackr politics news logo"><br>
-										<strong class="nw_ctgr_title">Politics News  <span class="org_txt">&gt;&gt;</span></strong>
+										<div class="ntype">
+											<img src="./assets/img/icon/politics-news.png" alt="NewsTrackr politics news logo"><br>
+											<strong class="nw_ctgr_title">Politics News  <span class="org_txt">&gt;&gt;</span></strong>
+										</div>
 									</li>
 									<li>
-										<img src="./assets/img/icon/entertaintment-news.png" alt="NewsTrackr entertaintment news logo"><br>
-										<strong class="nw_ctgr_title">Entertaintment News  <span class="org_txt">&gt;&gt;</span></strong>
+										<div class="ntype">
+											<img src="./assets/img/icon/entertaintment-news.png" alt="NewsTrackr entertaintment news logo"><br>
+											<strong class="nw_ctgr_title">Entertaintment News  <span class="org_txt">&gt;&gt;</span></strong>
+										</div>
 									</li>
 									<li>
-										<img src="./assets/img/icon/sports-news.png" alt="NewsTrackr sports news logo"><br>
-										<strong class="nw_ctgr_title">Sports News  <span class="org_txt">&gt;&gt;</span></strong>
+										<div class="ntype">
+											<img src="./assets/img/icon/sports-news.png" alt="NewsTrackr sports news logo"><br>
+											<strong class="nw_ctgr_title">Sports News  <span class="org_txt">&gt;&gt;</span></strong>
+										</div>
 									</li>
 									<li>
-										<img src="./assets/img/icon/health-news.png" alt="NewsTrackr health news logo"><br>
-										<strong class="nw_ctgr_title">Health News  <span class="org_txt">&gt;&gt;</span></strong>
+										<div class="ntype">
+											<img src="./assets/img/icon/health-news.png" alt="NewsTrackr health news logo"><br>
+											<strong class="nw_ctgr_title">Health News  <span class="org_txt">&gt;&gt;</span></strong>
+										</div>
 									</li>
 								</ul>
 							</div>
@@ -138,7 +148,7 @@
 				</div>
 
 				<!-- perks section starts here -->
-				<div class="perks_wrapper" style="clear: both;">
+				<div class="perks_wrapper">
 					<div class="perks">
 
 						<div class="prf_fl">
@@ -217,5 +227,24 @@
 
 			</div>
 		</div>
+
+		<script>
+
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("scrl_top").style.display = "block";
+				}
+			else {
+				document.getElementById("scrl_top").style.display = "none";
+				}
+			}
+			
+		function topFunction() {
+		document.body.scrollTop = 0;
+		document.documentElement.scrollTop = 0;
+		}
+		</script>
 	</body>
 </html>
